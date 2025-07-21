@@ -1,6 +1,7 @@
 # Buildkite Doom Example
 
 [![Build status](https://badge.buildkite.com/61ca6abfd586f4075560b0b11221b879bdc62f00f65c9a07a3.svg)](https://buildkite.com/buildkite/doom-example)
+[![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-14CC80)](https://buildkite.com/new)
 
 Now you can play [Doom](https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom) on [Buildkite](https://buildkite.com) — or have AI play it for you!
 
@@ -20,7 +21,7 @@ Each new move adds a step to the running pipeline, and the game interface (a PNG
 
 https://github.com/user-attachments/assets/5890f5e4-46ec-4bc9-a2dc-beda3fd48624
 
-The pipeline for this project [is also fully public](https://buildkite.com/cnunciato/buildkite-doom-example). Have a look at [a few recent plays](https://buildkite.com/cnunciato/buildkite-doom-example/builds/32/annotations).
+The pipeline for this project [is also fully public](https://buildkite.com/buildkite/doom-example). Have a look at [a few recent plays](https://buildkite.com/buildkite/doom-example/builds).
 
 ## Create your own
 
@@ -32,7 +33,7 @@ To create a playable Doom pipeline of your own, you'll need:
 
 Follow these steps to get going:
 
-1. [Fork this repository](https://github.com/cnunciato/buildkite-doom-example/fork) into the GitHub account of your choice.
+1. [Fork this repository](https://github.com/buildkite/doom-example/fork) into the GitHub account of your choice.
 1. [Create a new Buildkite pipeline](https://buildkite.com/new) and configure it to use your newly forked repo. Be sure to choose a self-hosted agent agent cluster as well, as you'll be running the Buildkite agent locally on your computer.
 1. Navigate to **Agents** &raquo; **Your Cluster** &raquo; **Agent Tokens**.
 1. Create a new agent token and copy it to your clipboard.  
