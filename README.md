@@ -20,7 +20,7 @@ Each new move adds a step to the running pipeline, and the game interface (a PNG
 
 https://github.com/user-attachments/assets/5890f5e4-46ec-4bc9-a2dc-beda3fd48624
 
-The pipeline for this project [is also fully public](https://buildkite.com/cnunciato/buildkite-doom-example) . Have a look at [a few recent plays](https://buildkite.com/cnunciato/buildkite-doom-example/builds/32/annotations).
+The pipeline for this project [is also fully public](https://buildkite.com/cnunciato/buildkite-doom-example). Have a look at [a few recent plays](https://buildkite.com/cnunciato/buildkite-doom-example/builds/32/annotations).
 
 ## Create your own
 
